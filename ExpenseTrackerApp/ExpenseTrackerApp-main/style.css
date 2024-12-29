@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #ffe5d9, #d6eaf8);
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ff6f61;
+  text-shadow: 1px 1px 2px rgba(255, 182, 171, 0.8);
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-section label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #ff6f61;
+}
+
+.input-section input[type="number"], .input-section input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.input-section button {
+  padding: 8px 12px;
+  background-color: #85c1e9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-section button:hover {
+  background-color: #5dade2;
+}
+
+.expenses-list {
+  margin: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #d6eaf8;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #85c1e9;
+  color: white;
+}
+
+td {
+  background-color: #f7fbfc;
+}
+
+tfoot td {
+  font-weight: bold;
+  background-color: #eaf2f8;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #e35b54;
+}
